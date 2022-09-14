@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+  
+  }
+
+
+  .img{  position: absolute;
+  left: 54.84%;
+  right: 12.88%;
+  top: 29.99%;
+  bottom: 25.52%;
+  
+  }
+  
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    text-align: right;
+    background: #1AC073;
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+  }
+
+
+
+
+  .header > div > img {
+    height: 400px;
+    width: 400px;
+  }
+  
+  .header p:nth-child(1) {
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 0px;
+  position: absolute;
+  top: 60px;
+  left: 132px;
+  bottom: auto;
+
+  /* White */
+  
+  color: #FFFFFF;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  }
+
+  .header p:nth-child(2) {
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 0px;
+    position: absolute;
+    top: 140px;
+    left: 132px;
+    bottom: auto;
+
+    
+    /* White */
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+
+    .header p:nth-child(3) {
+  
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 20px;
+      position: absolute;
+      top: 230px;
+      left: 132px;
+      bottom: auto;
+  
+      
+      /* White */
+      
+      color: #FFFFFF;
+      
+      
+      /* Inside auto layout */
+      
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      }
+
+      .header p:nth-child(4) {
+  
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        position: absolute;
+        top: 250px;
+        left: 132px;
+        bottom: auto;
+    
+        
+        /* White */
+        
+        color: #FFFFFF;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        }
+
+
+       .search-bar{
+        margin-left: -100px;
+        margin-top: 210px;
+        font-size: 15px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        line-height: 22px;
+        outline: none;
+        letter-spacing: -0.012em;
+        border-color: #FFFFFF;
+        border-bottom-left-radius:4px ;
+        border-top-left-radius:4px ;
+        border-bottom-right-radius: 0px ;
+        border-top-right-radius: 0px;
+        width: 398px;
+        height: 58px;
+        padding-top: 19px;
+        padding-bottom: 19px;
+        padding-left: 22px;
+       }
+
+       .signup-button {
+        background-color: #F3BA00;
+        margin-top: 210px;
+        margin-left: -4px;
+        color: white;
+        height: 59px;
+        width: 112px;
+        border: none;
+        border-bottom-left-radius:0px ;
+        border-top-left-radius:0px ;
+        border-bottom-right-radius: 4px ;
+        border-top-right-radius: 4px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+
+  
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #1AC073;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  
+  .nav-first {
+    width: 89px;
+height: 20px;
+left: -14.5px;
+
+font-family: 'Squada One';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 0px;
+/* identical to box height, or 62% */
+
+letter-spacing: -0.012em;
+
+color: #FFFFFF;
+color: #FFF;
+      display: flex;
+      align-items: center;
+  }
+  .nav-third {
+      color: #FFF;
+      display: flex;
+      align-items: center;
+  }
+  
+  .nav-third > span:nth-child(2) {
+      margin-left: 8px;
+  }
+  .nav-second {
+      display: flex;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 277px;
+    height: 250px;
+    border-radius: 5px;
+    background: url(.jpg), #797979;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  
+
